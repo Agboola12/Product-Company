@@ -51,7 +51,7 @@ const Home = () => {
 
       <div className=' fixed-bottom d-flex  mb-5'>
         <button className='btn btn-success mr-auto'>
-          <i className="fa fa-facebook text-white"></i>
+          <i className='fa fa-whatsapp text-white'></i>
         </button>
         <button className='btn btn-success ml-auto'>
           <i className='fa fa-phone text-white'></i>
