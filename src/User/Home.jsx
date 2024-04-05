@@ -51,10 +51,10 @@ const Home = () => {
 
       <div className=' fixed-bottom d-flex  mb-5'>
         <button className='btn btn-success mr-auto'>
-          <i class="fa fab-whatsapp  text-primary" aria-hidden="true"></i>
+          <i className="fa fa-facebook text-white"></i>
         </button>
         <button className='btn btn-success ml-auto'>
-          <i className='fa fa-phone  text-white'></i>
+          <i className='fa fa-phone text-white'></i>
         </button>
       </div>
       <div className='bg-danger text-center mx-auto'>
