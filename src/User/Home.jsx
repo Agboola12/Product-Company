@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 import style from './Styles.module.css'
 import one from '../assets/1B-0.png'
 import three from '../assets/3B-0.png'
-import two from '../assets/booster-0.jpg'
+import two from '../assets/booster-0.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
