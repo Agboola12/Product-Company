@@ -16,11 +16,10 @@ const Home = () => {
       </header>
       
       {/* <div className='container p-5 mb-5' id={style.service}> */}
-      <div className='container'>
+      <div className='container mt-5 mx -auto'>
         <p className='fs-1 fw-bold'> PRODUCTS</p>
-        
       <div className='row text-center mt-4 mb-5' id='home'>
-                    <div className='col-lg-3 shadow bg-white rounded-sm  '>
+                    <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
                         <div className=''>
                             <img src={one} className='w-100' />
                             <p className='text-primary fw-bold mt-2'>Dell</p>
@@ -28,7 +27,7 @@ const Home = () => {
                             <Link to="/product-detail" className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</Link>
                         </div>
                     </div>
-                    <div className='col-lg-3 shadow bg-white rounded-sm  '>
+                    <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
                         <div className=''>
                             <img src={two} className='w-100' />
                             <p className='text-primary fw-bold mt-2'>Dell</p>
@@ -37,7 +36,7 @@ const Home = () => {
 
                         </div>
                     </div>
-                    <div className='col-lg-3 shadow bg-white rounded-sm  '>
+                    <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
                         <div className=''>
                             <img src={three} className='w-100' />
                             <p className='text-primary fw-bold mt-2'>Dell</p>
@@ -45,7 +44,6 @@ const Home = () => {
                             <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button>
                         </div>
                     </div>
-                    <Link to="/product" className='ml-auto text-right mt-3 text-decoration-none text-dark' style={{cursor:'pointer'}}>View More</Link>
                     </div>
       {/* </div> */}
 
