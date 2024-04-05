@@ -49,11 +49,13 @@ const Home = () => {
 
       </div>
 
-      {/* <div className='fixed-bottom d-flex'>
-      <i class="fa fa-whatsapp text-left text-primary" aria-hidden="true"></i>
-
-          <i className='fa fa-phone text-right text-danger'></i>
-      </div> */}
+      <div className='fixed-bottom d-flex mb-5'>
+        <button
+      <i class="fa fab-whatsapp text-left text-primary" aria-hidden="true"></i>
+       <button className='btn btn-success'>
+           <i className='fa fa-phone text-right text-white'></i>
+        </button>
+      </div>
       <div className='bg-danger text-center mx-auto'>
           <p>DO NOT PLACE ORDER FOR THIS PRODUCT IF YOU ARE NOT READY </p>
       </div>
