@@ -13,30 +13,37 @@ import FooterBar from './Footer'
 const Home = () => {
   const handleMobileClick = (mobile) => {
     window.location.href = `tel:${mobile}`;
-};
-  
+  };
+
   return (
     <div>
       <NavBar />
 
       <header id={style.header}>
+        <div className='container text-white' style={{marginTop:'5em'}}>
+        <p className='h1'>ENHANCE AND ENLARGE <br/> YOUR PENIS</p>
+        <p className='mt-4 fs-5'> a non-surgical and speedy solution to <br/> enhance your manhood? Look no further! Our non- <br/>surgical solutions provide immediate
+          and noticeable <br/>results without any downtime. Our procedures not<br/> only increases penis size but also enhances the <br/>appearance of the glans
+          and scrotum, delivering <br/> exceptional results.
+        </p>
+        </div>
 
       </header>
 
       <div className='  mb-5 jumbotron mx-auto'>
-                <div className='row mx-auto '>
-                    <div className='col-lg-3 mx-auto'>
-                        <img src={team} className='w-50 ' style={{borderRadius: '50px'}} />
-                    </div>
-                    <div className='col-lg-6 mr-5'>
-                        <p className='fs-3 fw-bold'> What we do</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, animi? Quibusdam dicta
-                            saepe dolore qui enim, eaque temporibus necessitatibus eveniet suscipit, corporis asperiores natus voluptatem
-                            Dignissimos, sint placeat!
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div className='row mx-auto '>
+          <div className='col-lg-3 mx-auto'>
+            <img src={team} className='w-50 ' style={{ borderRadius: '50px' }} />
+          </div>
+          <div className='col-lg-6 mr-5'>
+            <p className='fs-3 fw-bold'> What we do</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, animi? Quibusdam dicta
+              saepe dolore qui enim, eaque temporibus necessitatibus eveniet suscipit, corporis asperiores natus voluptatem
+              Dignissimos, sint placeat!
+            </p>
+          </div>
+        </div>
+      </div>
 
       {/* <div className='container p-5 mb-5' id={style.service}> */}
       <div className='container mt-5 mx -auto'>
@@ -47,7 +54,7 @@ const Home = () => {
             <img src={one} className='w-100' />
             <p className='text-primary fw-bold mt-2'>Dell</p>
             <p className='fw-bold'>$45.00</p>
-            <Link to="/detail" className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</Link>
+            <Link to="/details" className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</Link>
           </div>
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
@@ -75,40 +82,47 @@ const Home = () => {
         </button>
         <button className='btn btn-success fs-4 ml-auto '>
           {/* <i className='fa fa-phone text-white '></i> */}
-          <i className='fa fa-phone text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}></i> 
+          <i className='fa fa-phone text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}></i>
         </button>
       </div>
 
       <div className='text-center mx-auto p-5 mb-4' id={style.team}>
-                <p className='fw-bold fs-3'>Our Team</p>
-                <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum veritatis obcaecati libero laudantium ea, et voluptatibus unde? La
-                    boriosam rem velit, at mollitia neque quod culpa animi consequuntur amet maiores? Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Corporis, labore asperiores! A molestiae magni quidem eos error imp
-                </p>
-                <div className='row text-center mx-auto'>
-                    <div className='col-lg-4'>
-                        <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br/>
-                        <small className='fw-bold'>John Doe</small><br/>
-                        <small>Team Member</small>
-                    </div>
-                    <div className='col-lg-4'>
-                        <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br/>
-                        <small className='fw-bold'>John Doe</small><br/>
-                        <small>Team Member</small>
-                    </div>
-                    <div className='col-lg-4'>
-                        <img src={team} alt='jjgj' className='w-25  ' id={style.profile} /><br/>
-                        <small className='fw-bold'>John Doe</small><br/>
-                        <small>Team Member</small>
-                    </div>
-                </div>
-            </div>
+        <p className='fw-bold fs-3'>Our Team</p>
+        <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum veritatis obcaecati libero laudantium ea, et voluptatibus unde? La
+          boriosam rem velit, at mollitia neque quod culpa animi consequuntur amet maiores? Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Corporis, labore asperiores! A molestiae magni quidem eos error imp
+        </p>
+        <div className='row text-center mx-auto'>
+          <div className='col-lg-4'>
+            <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br />
+            <small className='fw-bold'>John Doe</small><br />
+            <small>Team Member</small>
+          </div>
+          <div className='col-lg-4'>
+            <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br />
+            <small className='fw-bold'>John Doe</small><br />
+            <small>Team Member</small>
+          </div>
+          <div className='col-lg-4'>
+            <img src={team} alt='jjgj' className='w-25  ' id={style.profile} /><br />
+            <small className='fw-bold'>John Doe</small><br />
+            <small>Team Member</small>
+          </div>
+        </div>
+      </div>
+
+
+{/*  */}
+
+
+{/*  */}
+
 
       <div className='bg-danger text-center mx-auto p-2 mx-auto text-white mb-4 fw-bold'>
         <p>DO NOT PLACE ORDER FOR THIS PRODUCT IF YOU ARE NOT READY </p>
       </div>
 
-      <FooterBar/>
+      <FooterBar />
 
     </div>
   )

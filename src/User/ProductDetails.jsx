@@ -9,12 +9,12 @@ const ProductDetails = () => {
     return (
         <div>
             <NavBar/>
-            <div className='container mt-5 mb-5'>
+            <div className='container  mb-5'>
                 <div className='row'>
                     <div className='col-lg-5'>
                         <img src={one} className='w-100' />
                     </div>
-                    <div className='col-lg-6'>
+                    <div className='col-lg-6' style={{marginTop:'7em'}}>
                         <p className='fs-3 fw-bold'> Product Details</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, animi? Quibusdam dicta
                             saepe dolore qui enim, eaque temporibus necessitatibus eveniet suscipit, corporis asperiores natus voluptatem
