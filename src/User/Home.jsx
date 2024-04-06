@@ -58,11 +58,11 @@ const Home = () => {
         </button>
         <button className='btn btn-success fs-4 ml-auto '>
           {/* <i className='fa fa-phone text-white '></i> */}
-          <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}><i className='fa fa-phone text-white '></i> </li>
+          <i className='fa fa-phone text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}></i> 
         </button>
       </div>
 
-      <div className='bg-danger text-center mx-auto'>
+      <div className='bg-danger text-center mx-auto p-2 mx-auto text-white mb-4'>
         <p>DO NOT PLACE ORDER FOR THIS PRODUCT IF YOU ARE NOT READY </p>
       </div>
 
