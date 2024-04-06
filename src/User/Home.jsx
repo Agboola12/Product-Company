@@ -4,8 +4,10 @@ import style from './Styles.module.css'
 import one from '../assets/1B-0.png'
 import three from '../assets/3B-0.png'
 import two from '../assets/booster-0.png'
+import team from '../assets/aa.jpg'
 import { Link } from 'react-router-dom'
 import FooterBar from './Footer'
+
 
 
 const Home = () => {
@@ -20,6 +22,21 @@ const Home = () => {
       <header id={style.header}>
 
       </header>
+
+      <div className='  mb-5 jumbotron mx-auto'>
+                <div className='row mx-auto '>
+                    <div className='col-lg-3 mx-auto'>
+                        <img src={team} className='w-50 ' style={{borderRadius: '50px'}} />
+                    </div>
+                    <div className='col-lg-6 mr-5'>
+                        <p className='fs-3 fw-bold'> What we do</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, animi? Quibusdam dicta
+                            saepe dolore qui enim, eaque temporibus necessitatibus eveniet suscipit, corporis asperiores natus voluptatem
+                            Dignissimos, sint placeat!
+                        </p>
+                    </div>
+                </div>
+            </div>
 
       {/* <div className='container p-5 mb-5' id={style.service}> */}
       <div className='container mt-5 mx -auto'>
@@ -62,7 +79,32 @@ const Home = () => {
         </button>
       </div>
 
-      <div className='bg-danger text-center mx-auto p-2 mx-auto text-white mb-4'>
+      <div className='text-center mx-auto p-5 mb-4' id={style.team}>
+                <p className='fw-bold fs-3'>Our Team</p>
+                <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum veritatis obcaecati libero laudantium ea, et voluptatibus unde? La
+                    boriosam rem velit, at mollitia neque quod culpa animi consequuntur amet maiores? Lorem ipsum dolor sit, amet consectetur adipisicing
+                    elit. Corporis, labore asperiores! A molestiae magni quidem eos error imp
+                </p>
+                <div className='row text-center mx-auto'>
+                    <div className='col-lg-4'>
+                        <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br/>
+                        <small className='fw-bold'>John Doe</small><br/>
+                        <small>Team Member</small>
+                    </div>
+                    <div className='col-lg-4'>
+                        <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br/>
+                        <small className='fw-bold'>John Doe</small><br/>
+                        <small>Team Member</small>
+                    </div>
+                    <div className='col-lg-4'>
+                        <img src={team} alt='jjgj' className='w-25  ' id={style.profile} /><br/>
+                        <small className='fw-bold'>John Doe</small><br/>
+                        <small>Team Member</small>
+                    </div>
+                </div>
+            </div>
+
+      <div className='bg-danger text-center mx-auto p-2 mx-auto text-white mb-4 fw-bold'>
         <p>DO NOT PLACE ORDER FOR THIS PRODUCT IF YOU ARE NOT READY </p>
       </div>
 
