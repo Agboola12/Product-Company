@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const NavBar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-white">
+            <nav className="navbar navbar-expand-lg navbar-light bg-white shadow">
                 <img src={logo} alt='jjkbd' width='80px' className='ml-5' />
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
