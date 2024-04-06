@@ -20,12 +20,12 @@ const Home = () => {
       <NavBar />
 
       <header id={style.header}>
-        <div className='container text-white' style={{marginTop:'5em'}}>
-        <p className='h1'>ENHANCE AND ENLARGE <br/> YOUR PENIS</p>
-        <p className='mt-4 fs-5'> a non-surgical and speedy solution to <br/> enhance your manhood? Look no further! Our non- <br/>surgical solutions provide immediate
-          and noticeable <br/>results without any downtime. Our procedures not<br/> only increases penis size but also enhances the <br/>appearance of the glans
-          and scrotum, delivering <br/> exceptional results.
-        </p>
+        <div className='container text-white' style={{ marginTop: '5em' }}>
+          <p className='h1'>ENHANCE AND ENLARGE <br /> YOUR PENIS</p>
+          <p className='mt-4 fs-5'> a non-surgical and speedy solution to <br /> enhance your manhood? Look no further! Our non- <br />surgical solutions provide immediate
+            and noticeable <br />results without any downtime. Our procedures not<br /> only increases penis size but also enhances the <br />appearance of the glans
+            and scrotum, delivering <br /> exceptional results.
+          </p>
         </div>
 
       </header>
@@ -112,10 +112,116 @@ const Home = () => {
       </div>
 
 
-{/*  */}
+      {/*  */}
+      <div>
+        <div className="faq-section bg-light py-5" id="faq">
+          <div className="container">
+            <h2 className="text-bold text-center mb-5">Frequently Asked Questions</h2>
+            <div className="row">
+              <div className="col-lg-6 mx-auto">
+                <div className="accordion accordion-faq" id="accordionfaq">
+                  <div className="accordion-item mb-3">
+                    <h2 className="accordion-header" id="headingOneFaq">
+                      <button className="accordion-button text-normal bg-transparent" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOneFaq" aria-expanded="true" aria-controls="collapseOneFaq">
+                        <div className="d-flex align-items-lg-center align-items-start">
+                          <h6 className="make-text-medium mb-0">Who is a candidate for penis enlargement and enhancement?</h6>
+                        </div>
+                      </button>
+                    </h2>
+                    <div id="collapseOneFaq" className="accordion-collapse collapse show" aria-labelledby="headingOneFaq"
+                      data-bs-parent="#accordionfaq">
+                      <div className="accordion-body">
+                        <div className="text-light-grey">
+                          If you’re feeling dissatisfied about the look and size of your penis, then this procedure may help you feel more confident.
+                          We understand that feeling confident and satisfied with your body is important, and we’re here to help you. Before you begin,
+                          it’s important to have a realistic view of your current size and expectations for enhancement. During your private consultation, our expert physician will discuss your concerns and provide detailed information about the risks and benefits of the procedure.
+                          We believe that each person is unique and we will conduct a physical exam to determine your individual needs and options.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item mb-3">
+                    <h2 className="accordion-header" id="headingTwoFaq">
+                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseTwoFaq" aria-expanded="false"
+                        aria-controls="collapseTwoFaq">
+                        <div className="d-flex align-items-lg-center align-items-start">
+                          <h6 className="make-text-medium mb-0">Do I have to be circumcised to get penile augmentation treatment?</h6>
+                        </div>
+                      </button>
+                    </h2>
+                    <div id="collapseTwoFaq" className="accordion-collapse collapse" aria-labelledby="headingTwoFaq"
+                      data-bs-parent="#accordionfaq">
+                      <div className="accordion-body">
+                        <div className="text-light-grey">
+                          <p>No, there is no requirement for you to be circumcised. We provide treatments for men who are both circumcised and non-circumcised.
+                            We recommend scheduling a confidential consultation with our experienced male enhancement specialists to assess the most appropriate
+                            treatment option and discuss expected results.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item mb-3">
+                    <h2 className="accordion-header" id="headingThreeFaq">
+                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseThreeFaq" aria-expanded="false"
+                        aria-controls="collapseThreeFaq">
+                        <div className="d-flex align-items-lg-center align-items-start">
+                          <h6 className="make-text-medium mb-0">How are the results calculated and displayed?</h6>
+                        </div>
+                      </button>
+                    </h2>
+                    <div id="collapseThreeFaq" className="accordion-collapse collapse" aria-labelledby="headingThreeFaq"
+                      data-bs-parent="#accordionfaq">
+                      <div className="accordion-body">
+                        <div className="text-light-grey">The voting system calculates the results based on the chosen voting method (e.g., majority, ranked-choice, etc.) and displays them in a clear and concise format, often providing real-time updates for immediate access.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item mb-3">
+                    <h2 className="accordion-header" id="headingFourFaq">
+                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseFourFaq" aria-expanded="false"
+                        aria-controls="collapseFourFaq">
+                        <div className="d-flex align-items-lg-center align-items-start">
+                          <h6 className="make-text-medium mb-0">Is there a way to export or download the voting results?</h6>
+                        </div>
+                      </button>
+                    </h2>
+                    <div id="collapseFourFaq" className="accordion-collapse collapse" aria-labelledby="headingFourFaq"
+                      data-bs-parent="#accordionfaq">
+                      <div className="accordion-body">
+                        <div className="text-light-grey">Yes, our voting system usually offers the functionality to export or download the voting results in various formats (e.g., CSV, PDF), allowing you to analyze and store the data as needed.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item mb-3">
+                    <h2 className="accordion-header" id="headingFiveFaq">
+                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapseFiveFaq" aria-expanded="false"
+                        aria-controls="collapseFiveFaq">
+                        <div className="d-flex align-items-lg-center align-items-start">
+                          <h6 className="make-text-medium mb-0">Is voter anonymity guaranteed?</h6>
+                        </div>
+                      </button>
+                    </h2>
+                    <div id="collapseFiveFaq" className="accordion-collapse collapse" aria-labelledby="headingFiveFaq"
+                      data-bs-parent="#accordionfaq">
+                      <div className="accordion-body">
+                        <div className="text-light-grey">Yes, our voting system ensures voter anonymity, protecting the privacy of participants by separating their personal information from their cast votes, thus upholding the confidentiality and integrity of the voting process.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-{/*  */}
+      {/*  */}
 
 
       <div className='bg-danger text-center mx-auto p-2 mx-auto text-white mb-4 fw-bold'>
