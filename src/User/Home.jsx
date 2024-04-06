@@ -55,11 +55,11 @@ const handleEmailClick = (email) => {
       </div>
 
       <div className=' fixed-bottom d-flex  mb-5'>
-        <button className='btn btn-success mr-auto'>
-          <i className='fab fa-whatsapp text-white'></i>
+        <button className='btn btn-success fs-4 mr-auto '>
+          <i className='fab fa-whatsapp text-white '></i>
         </button>
-        <button className='btn btn-success ml-auto'>
-          <i className='fa fa-phone text-white'></i>
+        <button className='btn btn-success fs-4 ml-auto '>
+          <i className='fa fa-phone text-white '></i>
         </button>
       </div>
 
