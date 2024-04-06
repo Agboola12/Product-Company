@@ -169,14 +169,18 @@ const Home = () => {
                         data-bs-toggle="collapse" data-bs-target="#collapseThreeFaq" aria-expanded="false"
                         aria-controls="collapseThreeFaq">
                         <div className="d-flex align-items-lg-center align-items-start">
-                          <h6 className="make-text-medium mb-0">How are the results calculated and displayed?</h6>
+                          <h6 className="make-text-medium mb-0">How long will the procedure take?</h6>
                         </div>
                       </button>
                     </h2>
                     <div id="collapseThreeFaq" className="accordion-collapse collapse" aria-labelledby="headingThreeFaq"
                       data-bs-parent="#accordionfaq">
                       <div className="accordion-body">
-                        <div className="text-light-grey">The voting system calculates the results based on the chosen voting method (e.g., majority, ranked-choice, etc.) and displays them in a clear and concise format, often providing real-time updates for immediate access.</div>
+                        <div className="text-light-grey">
+                          <p>The procedure typically takes around 30 minutes to complete, although this can vary depending on the individual’s needs and goals.
+                            Following the procedure, the patient can resume their regular activities without any significant downtime.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
