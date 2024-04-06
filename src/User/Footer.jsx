@@ -34,11 +34,11 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className='col-lg-3'>
-                <h6 className="text-medium text-uppercase text-white">Call Us</h6>
+                <h6 className="text-medium text-uppercase text-white">Call Us </h6>
                     <ul className="list-unstyled">
-                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2347043985883')}>+2347043985883 </li>
+                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}>+2348077628697 </li>
                 <h6 className="text-medium text-uppercase text-white mt-4">Whatsapp</h6>
-                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348138739589')}>+2348138739589</li>
+                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348138739589')}>+2348077628697</li>
                     </ul>
                 </div>
             </div>

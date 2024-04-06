@@ -60,6 +60,7 @@ const Home = () => {
       <div className='bg-danger text-center mx-auto'>
         <p>DO NOT PLACE ORDER FOR THIS PRODUCT IF YOU ARE NOT READY </p>
       </div>
+
     </div>
   )
 }

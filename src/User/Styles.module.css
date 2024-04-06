@@ -15,3 +15,9 @@
     background: linear-gradient(to right, #1C4878, #1D6075, #1E846F);
 
 }
+
+#footer {
+    /* background-color: #1B377B; */
+    background: linear-gradient(to right, #1C4878, #1D6075, #1E846F);
+    color: white;
+}
