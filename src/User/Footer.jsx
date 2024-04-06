@@ -2,7 +2,8 @@ import React from 'react';
 import style from './Styles.module.css'
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const FooterBar = () => {
+    
     const handleMobileClick = (mobile) => {
         window.location.href = `tel:${mobile}`;
     };
@@ -38,7 +39,7 @@ const Footer = () => {
                     <ul className="list-unstyled">
                         <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}>+2348077628697 </li>
                 <h6 className="text-medium text-uppercase text-white mt-4">Whatsapp</h6>
-                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348138739589')}>+2348077628697</li>
+                        <li className='text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}>+2348077628697</li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +47,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="d-flex justify-content-between align-items-center">
-                        <div>© Engineer Elijah. All Rights Reserved</div>
+                        <div>© BlackMan. All Rights Reserved</div>
 
                         <ul className="list-unstyled d-flex mb-0" style={{ gap: "10px" }}>
                             <li><Link to="https://www.facebook.com/elijah.amosun.79?mibextid=ibOpuV" className="text-white"><i className="fab fa-facebook"></i></Link></li>
@@ -60,4 +61,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default FooterBar;
