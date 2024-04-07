@@ -184,40 +184,6 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="accordion-item mb-3">
-                    <h2 className="accordion-header" id="headingFourFaq">
-                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseFourFaq" aria-expanded="false"
-                        aria-controls="collapseFourFaq">
-                        <div className="d-flex align-items-lg-center align-items-start">
-                          <h6 className="make-text-medium mb-0">Is there a way to export or download the voting results?</h6>
-                        </div>
-                      </button>
-                    </h2>
-                    <div id="collapseFourFaq" className="accordion-collapse collapse" aria-labelledby="headingFourFaq"
-                      data-bs-parent="#accordionfaq">
-                      <div className="accordion-body">
-                        <div className="text-light-grey">Yes, our voting system usually offers the functionality to export or download the voting results in various formats (e.g., CSV, PDF), allowing you to analyze and store the data as needed.</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item mb-3">
-                    <h2 className="accordion-header" id="headingFiveFaq">
-                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseFiveFaq" aria-expanded="false"
-                        aria-controls="collapseFiveFaq">
-                        <div className="d-flex align-items-lg-center align-items-start">
-                          <h6 className="make-text-medium mb-0">Is voter anonymity guaranteed?</h6>
-                        </div>
-                      </button>
-                    </h2>
-                    <div id="collapseFiveFaq" className="accordion-collapse collapse" aria-labelledby="headingFiveFaq"
-                      data-bs-parent="#accordionfaq">
-                      <div className="accordion-body">
-                        <div className="text-light-grey">Yes, our voting system ensures voter anonymity, protecting the privacy of participants by separating their personal information from their cast votes, thus upholding the confidentiality and integrity of the voting process.</div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
