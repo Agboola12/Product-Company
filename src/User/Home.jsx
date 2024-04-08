@@ -171,23 +171,23 @@ const Home = () => {
 <div>
     <div class="faq-section bg-light py-5" id="faq">
       <div class="container">
-        <h2 class="text-bold text-center mb-5">Frequently Asked Questions</h2>
-        <div class="row">
-          <div class="col-lg-6 mx-auto">
-            <div class="accordion accordion-faq" id="accordionfaq">
-              <div class="accordion-item mb-3">
-                <h2 class="accordion-header" id="headingOneFaq">
-                  <button class="accordion-button text-normal bg-transparent" type="button" data-bs-toggle="collapse"
+        <h2 className="text-bold text-center mb-5">Frequently Asked Questions</h2>
+        <div className="row">
+          <div className="col-lg-6 mx-auto">
+            <div className="accordion accordion-faq" id="accordionfaq">
+              <div className="accordion-item mb-3">
+                <h2 className="accordion-header" id="headingOneFaq">
+                  <button className="accordion-button text-normal bg-transparent" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseOneFaq" aria-expanded="true" aria-controls="collapseOneFaq">
-                    <div class="d-flex align-items-lg-center align-items-start">
-                      <h6 class="make-text-medium mb-0">How secure is the voting system?</h6>
+                    <div className="d-flex align-items-lg-center align-items-start">
+                      <h6 className="make-text-medium mb-0">How secure is the voting system?</h6>
                     </div>
                   </button>
                 </h2>
-                <div id="collapseOneFaq" class="accordion-collapse collapse show" aria-labelledby="headingOneFaq"
+                <div id="collapseOneFaq" className="accordion-collapse collapse show" aria-labelledby="headingOneFaq"
                   data-bs-parent="#accordionfaq">
-                  <div class="accordion-body">
-                    <div class="text-light-grey">Our voting system employs robust security measures, including encryption and authentication protocols, to ensure the utmost security and protection of voter information and the integrity of the voting process.</div>
+                  <div className="accordion-body">
+                    <div className="text-light-grey">Our voting system employs robust security measures, including encryption and authentication protocols, to ensure the utmost security and protection of voter information and the integrity of the voting process.</div>
                   </div>
                 </div>
               </div>
