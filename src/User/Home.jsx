@@ -86,30 +86,7 @@ const Home = () => {
         </button>
       </div>
 
-      <div className='text-center mx-auto p-5 mb-4' id={style.team}>
-        <p className='fw-bold fs-3'>Our Team</p>
-        <p className='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non illum veritatis obcaecati libero laudantium ea, et voluptatibus unde? La
-          boriosam rem velit, at mollitia neque quod culpa animi consequuntur amet maiores? Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Corporis, labore asperiores! A molestiae magni quidem eos error imp
-        </p>
-        <div className='row text-center mx-auto'>
-          <div className='col-lg-4'>
-            <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br />
-            <small className='fw-bold'>John Doe</small><br />
-            <small>Team Member</small>
-          </div>
-          <div className='col-lg-4'>
-            <img src={team} alt='jjgj' className='w-25 ' id={style.profile} /><br />
-            <small className='fw-bold'>John Doe</small><br />
-            <small>Team Member</small>
-          </div>
-          <div className='col-lg-4'>
-            <img src={team} alt='jjgj' className='w-25  ' id={style.profile} /><br />
-            <small className='fw-bold'>John Doe</small><br />
-            <small>Team Member</small>
-          </div>
-        </div>
-      </div>
+      
 
 
       {/*  */}
