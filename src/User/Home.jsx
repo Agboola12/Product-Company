@@ -46,7 +46,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className='container p-5 mb-5' id={style.service}> */}
       <div className='container mt-5 mx -auto'>
         <p className='fs-1 fw-bold'> PRODUCTS</p>
         <div className='row text-center mt-4 mb-5' id='home'>
@@ -77,103 +76,23 @@ const Home = () => {
 
       <div className=' fixed-bottom d-flex  mb-5'>
         <button className='btn btn-success fs-4 mr-auto '>
-          {/* <i className='fab fa-whatsapp text-white '></i> */}
           <Link to="https://wa.link/7rbwz0" className="text-white"><i className="fab fa-whatsapp"></i></Link>
-
         </button>
         <button className='btn btn-success fs-4 ml-auto '>
-          {/* <i className='fa fa-phone text-white '></i> */}
           <i className='fa fa-phone text-white text-decoration-none' onClick={() => handleMobileClick('+2348077628697')}></i>
         </button>
       </div>
 
-      
-
-
-      {/*  */}
-      {/* <div>
-        <div className="faq-section bg-light py-5" id="faq">
-          <div className="container">
-            <h2 className="text-bold text-center mb-5">Frequently Asked Questions</h2>
-            <div className="row">
-              <div className="col-lg-6 mx-auto">
-                <div className="accordion accordion-faq" id="accordionfaq">
-                  <div className="accordion-item mb-3">
-                    <h2 className="accordion-header" id="headingOneFaq">
-                      <button className="accordion-button text-normal bg-transparent" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOneFaq" aria-expanded="true" aria-controls="collapseOneFaq">
-                        <div className="d-flex align-items-lg-center align-items-start">
-                          <h6 className="make-text-medium mb-0">Who is a candidate for penis enlargement and enhancement?</h6>
-                        </div>
-                      </button>
-                    </h2>
-                    <div id="collapseOneFaq" className="accordion-collapse collapse show" aria-labelledby="headingOneFaq"
-                      data-bs-parent="#accordionfaq">
-                      <div className="accordion-body">
-                        <div className="text-light-grey">
-                          If you’re feeling dissatisfied about the look and size of your penis, then this procedure may help you feel more confident.
-                          We understand that feeling confident and satisfied with your body is important, and we’re here to help you. Before you begin,
-                          it’s important to have a realistic view of your current size and expectations for enhancement. During your private consultation, our expert physician will discuss your concerns and provide detailed information about the risks and benefits of the procedure.
-                          We believe that each person is unique and we will conduct a physical exam to determine your individual needs and options.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item mb-3">
-                    <h2 className="accordion-header" id="headingTwoFaq">
-                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseTwoFaq" aria-expanded="false"
-                        aria-controls="collapseTwoFaq">
-                        <div className="d-flex align-items-lg-center align-items-start">
-                          <h6 className="make-text-medium mb-0">Do I have to be circumcised to get penile augmentation treatment?</h6>
-                        </div>
-                      </button>
-                    </h2>
-                    <div id="collapseTwoFaq" className="accordion-collapse collapse" aria-labelledby="headingTwoFaq"
-                      data-bs-parent="#accordionfaq">
-                      <div className="accordion-body">
-                        <div className="text-light-grey">
-                          <p>No, there is no requirement for you to be circumcised. We provide treatments for men who are both circumcised and non-circumcised.
-                            We recommend scheduling a confidential consultation with our experienced male enhancement specialists to assess the most appropriate
-                            treatment option and discuss expected results.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item mb-3">
-                    <h2 className="accordion-header" id="headingThreeFaq">
-                      <button className="accordion-button text-normal bg-transparent collapsed" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapseThreeFaq" aria-expanded="false"
-                        aria-controls="collapseThreeFaq">
-                        <div className="d-flex align-items-lg-center align-items-start">
-                          <h6 className="make-text-medium mb-0">How long will the procedure take?</h6>
-                        </div>
-                      </button>
-                    </h2>
-                    <div id="collapseThreeFaq" className="accordion-collapse collapse" aria-labelledby="headingThreeFaq"
-                      data-bs-parent="#accordionfaq">
-                      <div className="accordion-body">
-                        <div className="text-light-grey">
-                          <p>The procedure typically takes around 30 minutes to complete, although this can vary depending on the individual’s needs and goals.
-                            Following the procedure, the patient can resume their regular activities without any significant downtime.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div className='container' >
+        <div className={style.scroll}>
+          <img id={style.image} src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400" />
+          <img id={style.image} src="img_forest.jpg" alt="Forest" width="600" height="400" />
+          <img id={style.image} src="img_lights.jpg" alt="Northern Lights" width="600" height="400" />
+          <img id={style.image} src="img_mountains.jpg" alt="Mountains" width="600" height="400" />
         </div>
-      </div> */}
+      </div>
 
-      <FAQSection/>
-
-
-      {/*  */}
-
+      <FAQSection />
 
       <div className='bg-danger text-center mx-auto p-2 mx-auto text-white mb-4 fw-bold'>
         <p>DO NOT PLACE ORDER FOR THIS PRODUCT IF YOU ARE NOT READY </p>
