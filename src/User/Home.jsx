@@ -169,8 +169,8 @@ const Home = () => {
       </div> */}
 
 <div>
-    <div class="faq-section bg-light py-5" id="faq">
-      <div class="container">
+    <div className="faq-section bg-light py-5" id="faq">
+      <div className="container">
         <h2 className="text-bold text-center mb-5">Frequently Asked Questions</h2>
         <div className="row">
           <div className="col-lg-6 mx-auto">
