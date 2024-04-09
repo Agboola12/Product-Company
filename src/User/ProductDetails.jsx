@@ -50,9 +50,9 @@ const ProductDetails = () => {
                     <div className='mt-5'> 
                         <p className='fw-bold fs-1 text-center'>FOLLOW THESE EASY RULES</p>
                         <div className='row'>
-                            <div className='col-lg-4 shadow p-5 rounded'>
-                                    <p className='fs-3' style={{ color: '#621A3F' }}>1</p>
-                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
+                            <div className='col-lg-4 shadow-lg p-5 rounded'>
+                                    <p className='fs-3 fw-bold text-right' style={{ color: '#621A3F' }}>1</p>
+                                    <p className='fw-bold fs-4' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
                                     <img src={rul} alt="rules" />
                                     <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
                             </div>
@@ -60,13 +60,13 @@ const ProductDetails = () => {
                                     <p className='fs-3' style={{ color: '#621A3F' }}>2</p>
                                     <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE AN EXTRA CAPSULE BEFORE SEX </p>
                                     <img src={rule} alt="rules" />
-                                    <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
+                                    <p>Increase your excitement by taking Sperm Booster before sex. Enjoy your size and stamina!</p>
                             </div>
                             <div className='col-lg-4 shadow p-5 rounded'>
                                     <p className='fs-3' style={{ color: '#621A3F' }}>3</p>
                                     <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE THE COMPLETE COURSE </p>
                                     <img src={rules} alt="rules" />
-                                    <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
+                                    <p>The effect of Sperm Booster is cumulative. The longer you take it - the better and more stable results you get.</p>
                             </div>
                         </div>
                     </div>
