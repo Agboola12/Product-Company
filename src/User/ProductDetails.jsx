@@ -48,15 +48,14 @@ const ProductDetails = () => {
 
             <div className='container mx-auto text-center'>
                 <p className='fw-bold fs-1 mt-5'> YOU SHOULD TRY IT! </p>
-                <div className='row'>
+                <div className='row' style={{marginTop:'5em'}}>
                     <div className='col-lg-4'>
-                        <p className='fw-bold' style={{ fontSize: '4em' }}>YOU WILL BE SURPRISED TO KNOW ABOUT THE HIDDEN POWER INSIDE YOU!</p>
-                        <img src={one} className='w-100 ' />
+                        <p className='fw-bold' style={{ fontSize: '2em' }}>YOU WILL BE SURPRISED TO KNOW ABOUT THE HIDDEN POWER INSIDE YOU!</p>
                     </div>
                     <div className='col-lg-4'>
                         <img src={one} className='w-100 ' />
                     </div>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 mt-3'>
                         <p>Sex anytime and anywhere: </p>
                         <p> On the table, in the car, </p>
                         <p className='fw-bold'>in the cinema hall, </p>
