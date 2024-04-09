@@ -25,19 +25,19 @@ const ProductDetails = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className='mt-5'>
                         <p className='fw-bold h1 text-center'>GIVE THEM WHAT THEY WANT <br/> WITH THE HELP OF SPERM BOOSTER</p>
-                        <div className='row'>
-                            <div className='col-md-6'>
+                        <div className='row mx-auto text-center'>
+                            <div className='col-md-6 mx-auto'>
                                 <img src={one} className='w-100 ' />
                             </div>
-                            <div className='col-md-6 text-center mx-auto'>
-                                <p>Made from nature’s most effective Maca extract, Fenugreek extract, Tongkat Ali and Horny Goat Weed and Siberian ginseng, Longjack XXXL guarantees increased endurance, erection,
-                                    better performance and control than ever before! Longjack increases the volume of blood that fills your penis and
+                            <div className='col-md-6 text-center mx-auto' style={{marginTop: '7em'}}>
+                                <p>Made from nature’s most effective Maca extract, Fenugreek extract, Tongkat Ali and Horny Goat Weed and Siberian ginseng, Sperm Booster guarantees increased endurance, erection,
+                                    better performance and control than ever before! Sperm Booster increases the volume of blood that fills your penis and
                                     expands its size appearing larger with every erection.
                                 </p>
                                 <p>
-                                    The more you take Longjack XXXL, the more you’ll see that it works with your hormones which stabilize successful erectile
+                                    The more you take Sperm Booster, the more you’ll see that it works with your hormones which stabilize successful erectile
                                     function and maximize blood flow to your penis.
                                 </p>
                             </div>
