@@ -57,7 +57,8 @@ const ProductDetails = () => {
                         <img src={one} className='w-100 ' />
                     </div>
                     <div className='col-lg-4'>
-                        <p>Sex anytime and anywhere: On the table, in the car, </p>
+                        <p>Sex anytime and anywhere: </p>
+                        <p> On the table, in the car, </p>
                         <p className='fw-bold'>in the cinema hall, </p>
                         <p className='fw-bold' style={{ color: '#621A3F' }}>OR IN BED AT HOME. </p>
                     </div>
