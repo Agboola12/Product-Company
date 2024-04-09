@@ -58,13 +58,13 @@ const ProductDetails = () => {
                             </div>
                             <div className='col-lg-4 shadow p-5 rounded'>
                                     <p className='fs-3' style={{ color: '#621A3F' }}>2</p>
-                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
+                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE AN EXTRA CAPSULE BEFORE SEX </p>
                                     <img src={rule} alt="rules" />
                                     <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
                             </div>
                             <div className='col-lg-4 shadow p-5 rounded'>
                                     <p className='fs-3' style={{ color: '#621A3F' }}>3</p>
-                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
+                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE THE COMPLETE COURSE </p>
                                     <img src={rules} alt="rules" />
                                     <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
                             </div>
