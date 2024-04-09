@@ -2,6 +2,9 @@ import React from 'react'
 import NavBar from './NavBar'
 import FooterBar from './Footer'
 import one from '../assets/1B-0.png'
+import rul from '../assets/rules-1.gif'
+import rule from '../assets/rules-2.gif'
+import rules from '../assets/rules-3.gif'
 import { Link } from 'react-router-dom'
 import style from './Styles.module.css'
 
@@ -47,8 +50,23 @@ const ProductDetails = () => {
                     <div className='mt-5'> 
                         <p className='fw-bold fs-1 text-center'>FOLLOW THESE EASY RULES</p>
                         <div className='row'>
-                            <div className='col-lg-4 bg-white p-5 rounded'>
+                            <div className='col-lg-4 shadow p-5 rounded'>
+                                    <p className='fs-3' style={{ color: '#621A3F' }}>1</p>
                                     <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
+                                    <img src={rul} alt="rules" />
+                                    <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
+                            </div>
+                            <div className='col-lg-4 shadow p-5 rounded'>
+                                    <p className='fs-3' style={{ color: '#621A3F' }}>2</p>
+                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
+                                    <img src={rule} alt="rules" />
+                                    <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
+                            </div>
+                            <div className='col-lg-4 shadow p-5 rounded'>
+                                    <p className='fs-3' style={{ color: '#621A3F' }}>3</p>
+                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
+                                    <img src={rules} alt="rules" />
+                                    <p>The active components of the drug cumulatively affect the penis cells and increase its length and volume.</p>
                             </div>
                         </div>
                     </div>
