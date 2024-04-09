@@ -52,6 +52,7 @@ const Home = () => {
 
       <div className='container mt-5 mx -auto'>
         <p className='fs-1 fw-bold'> PRODUCTS</p>
+        <p className='ml-5 fs-3'>Payment on delivery</p>
         <div className='row text-center mt-4 mb-5' id='home'>
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={one} className='w-100' />
