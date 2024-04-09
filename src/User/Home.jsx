@@ -57,7 +57,8 @@ const Home = () => {
             <img src={one} className='w-100' />
             <p className=' fw-bold mt-2'>Sperm Booster</p>
             <p className='fw-bold'>#25,000</p>
-            <Link to="/details" className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</Link>
+            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
+            {/* <Link to="/details" className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</Link> */}
           </div>
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
