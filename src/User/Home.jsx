@@ -58,23 +58,20 @@ const Home = () => {
             <p className=' fw-bold mt-2'>Sperm Booster</p>
             <p className='fw-bold'>#25,000</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
-            {/* <Link to="/details" className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4" style={{ backgroundColor: '#1C7C68' }}>View Button</Link> */}
           </div>
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={two} className='w-100' />
             <p className=' fw-bold mt-2'>Sperm Booster</p>
             <p className='fw-bold'>#25,000</p>
-            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-50 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
-            {/* <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button> */}
+            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm'>
             <img src={three} className='w-100' />
             <p className=' fw-bold mt-2'>Sperm Booster</p>
             <p className='fw-bold'>#25,000</p>
-            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-50 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
-            {/* <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button> */}
+            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
 
         </div>
@@ -164,6 +161,7 @@ const Home = () => {
                         <p> On the table, in the car, </p>
                         <p className='fw-bold'>in the cinema hall, </p>
                         <p className='fw-bold' style={{ color: '#621A3F' }}>OR IN BED AT HOME. </p>
+                        <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-50 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Get the Product</Link>
                     </div>
                 </div>
             </div>
