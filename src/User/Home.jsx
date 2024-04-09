@@ -48,8 +48,9 @@ const Home = () => {
 
       <div className='container mt-5 mx -auto'>
         <p className='fs-1 fw-bold'> PRODUCTS</p>
+        {/* <p>WANT BIGGER SIZE? these gives fast and long-term effect</p> */}
+        {/* <p>GIVE THEM WHAT THEY WANT WITH THE HELP OF THESE PRODUCTS</p> */}
         <div className='row text-center mt-4 mb-5' id='home'>
-
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={one} className='w-100' />
             <p className='text-primary fw-bold mt-2'>Dell</p>
@@ -83,14 +84,14 @@ const Home = () => {
         </button>
       </div>
 
-      <div className='container' >
+      {/* <div className='container' >
         <div className={style.scroll}>
           <img id={style.image} src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400" />
           <img id={style.image} src="img_forest.jpg" alt="Forest" width="600" height="400" />
           <img id={style.image} src="img_lights.jpg" alt="Northern Lights" width="600" height="400" />
           <img id={style.image} src="img_mountains.jpg" alt="Mountains" width="600" height="400" />
         </div>
-      </div>
+      </div> */}
 
       <FAQSection />
 
