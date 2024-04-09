@@ -48,8 +48,6 @@ const Home = () => {
 
       <div className='container mt-5 mx -auto'>
         <p className='fs-1 fw-bold'> PRODUCTS</p>
-        {/* <p>WANT BIGGER SIZE? these gives fast and long-term effect</p> */}
-        {/* <p>GIVE THEM WHAT THEY WANT WITH THE HELP OF THESE PRODUCTS</p> */}
         <div className='row text-center mt-4 mb-5' id='home'>
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={one} className='w-100' />

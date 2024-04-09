@@ -43,6 +43,17 @@ const ProductDetails = () => {
                             </div>
                         </div>
                     </div>
+
+                    <div className='mt-5'> 
+                        <p className='fw-bold fs-1 text-center'>FOLLOW THESE EASY RULES</p>
+                        <div className='row'>
+                            <div className='col-lg-4 bg-white p-5 rounded'>
+                                    <p className='fw-bold' style={{ color: '#621A3F' }} >TAKE 1 CAPSULE PER DAY </p>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </header>
 
