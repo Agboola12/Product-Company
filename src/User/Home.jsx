@@ -6,7 +6,7 @@ import three from '../assets/3B-0.png'
 import two from '../assets/booster-0.png'
 // import team from '../assets/00.jpg'
 import { Link } from 'react-router-dom'
-import FooterBar from './Footer'
+// import FooterBar from './Footer'
 import FAQSection from './Faq'
 // import one from '../assets/1B-0.png'
 import rul from '../assets/rules-1.gif'
@@ -106,7 +106,7 @@ const Home = () => {
                             {/* <div className='col-md-6 mx-auto'>
                                 <img src={one} className='w-100 ' />
                             </div> */}
-                            <div className='col-md-6 text-center text-right fs-5 mx-auto' style={{ marginTop: '7em' }}>
+                            <div className='col-md-6 text-center text-right fs-5 mx-auto mt-5'>
                                 <p>Made from nature’s most effective Maca extract, Fenugreek extract, Tongkat Ali and Horny Goat Weed and Siberian ginseng, Sperm Booster guarantees increased endurance, erection,
                                     better performance and control than ever before! Sperm Booster increases the volume of blood that fills your penis and
                                     expands its size appearing larger with every erection.
@@ -147,6 +147,24 @@ const Home = () => {
                 </div>
             </header>
 
+            <div className='container mx-auto text-center'>
+                <p className='fw-bold fs-1 mt-5'> YOU SHOULD TRY IT! </p>
+                <div className='row' style={{marginTop:'5em'}}>
+                    <div className='col-lg-4'>
+                        <p className='fw-bold' style={{ fontSize: '2em' }}>YOU WILL BE SURPRISED TO KNOW ABOUT THE HIDDEN POWER INSIDE YOU!</p>
+                    </div>
+                    <div className='col-lg-4'>
+                        <img src={one} className='w-100 ' />
+                    </div>
+                    <div className='col-lg-4 mt-3'>
+                        <p>Sex anytime and anywhere: </p>
+                        <p> On the table, in the car, </p>
+                        <p className='fw-bold'>in the cinema hall, </p>
+                        <p className='fw-bold' style={{ color: '#621A3F' }}>OR IN BED AT HOME. </p>
+                    </div>
+                </div>
+            </div>
+
       {/* <div className='container' >
         <div className={style.scroll}>
           <img id={style.image} src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400" />
@@ -162,7 +180,7 @@ const Home = () => {
         <p>DO NOT PLACE ORDER FOR THIS PRODUCT IF YOU ARE NOT READY </p>
       </div>
 
-      <FooterBar />
+      {/* <FooterBar /> */}
 
     </div>
   )
