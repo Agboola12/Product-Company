@@ -64,14 +64,16 @@ const Home = () => {
             <img src={two} className='w-100' />
             <p className=' fw-bold mt-2'>Sperm Booster</p>
             <p className='fw-bold'>#25,000</p>
-            <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button>
+            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-50 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
+            {/* <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button> */}
           </div>
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm'>
             <img src={three} className='w-100' />
             <p className=' fw-bold mt-2'>Sperm Booster</p>
             <p className='fw-bold'>#25,000</p>
-            <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button>
+            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-50 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
+            {/* <button className="btn btn-main-1 w-100 text-medium text-white fw-bold fs-6 rounded-0 py-3 px-4 mb-4 rounded-lg" style={{ backgroundColor: '#1C7C68' }}>View Button</button> */}
           </div>
 
         </div>
@@ -149,14 +151,14 @@ const Home = () => {
 
             <div className='container mx-auto text-center'>
                 <p className='fw-bold fs-1 mt-5'> YOU SHOULD TRY IT! </p>
-                <div className='row' style={{marginTop:'5em'}}>
-                    <div className='col-lg-4'>
+                <div className='row mx-auto text-center' style={{marginTop:'5em'}}>
+                    <div className='col-lg-6 text-center'>
                         <p className='fw-bold' style={{ fontSize: '2em' }}>YOU WILL BE SURPRISED TO KNOW ABOUT THE HIDDEN POWER INSIDE YOU!</p>
                     </div>
-                    <div className='col-lg-4'>
+                    {/* <div className='col-lg-4'>
                         <img src={one} className='w-100 ' />
-                    </div>
-                    <div className='col-lg-4 mt-3'>
+                    </div> */}
+                    <div className='col-lg-6 mt-1 text-center'>
                         <p>Sex anytime and anywhere: </p>
                         <p> On the table, in the car, </p>
                         <p className='fw-bold'>in the cinema hall, </p>
