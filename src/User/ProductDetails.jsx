@@ -46,8 +46,13 @@ const ProductDetails = () => {
                 </div>
             </header>
 
-            <div className='container'>
-
+            <div className='container mx-auto text-center'>
+                    <p className='fw-bold fs-1'> YOU SHOULD TRY IT! </p>
+                    <div className='row'>
+                       <div className='col-lg-4'>
+                                <p className='fw-bold'>YOU WILL BE SURPRISED TO KNOW ABOUT THE HIDDEN POWER INSIDE YOU!</p>
+                        </div>     
+                    </div>
             </div>
 
             <FooterBar />
