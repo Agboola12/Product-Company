@@ -56,7 +56,13 @@ const Home = () => {
         <div className='row text-center mt-4 mb-5' id='home'>
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={one} className='w-100' />
-            <p className=' fw-bold mt-2'>Sperm Booster</p>
+            <p className=' fw-bold mt-2'>1 super active combo + 1 free natural detox cleanse = #25,500
+</p>
+            Payment on delivery
+FDA approved
+The price list 
+2 super active combo + 1 free natural detox cleanse = #35,500
+3 super active combo + 1 free natural detox cleanse = #45,500
             <p className='fw-bold'>#25,000</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
@@ -64,14 +70,14 @@ const Home = () => {
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={two} className='w-100' />
             <p className=' fw-bold mt-2'>Sperm Booster</p>
-            <p className='fw-bold'>#25,000</p>
+            <p className='fw-bold'>#35,500</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm'>
             <img src={three} className='w-100' />
             <p className=' fw-bold mt-2'>Sperm Booster</p>
-            <p className='fw-bold'>#25,000</p>
+            <p className='fw-bold'>#45,000</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
 
