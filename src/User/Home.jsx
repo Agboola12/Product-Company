@@ -53,12 +53,13 @@ const Home = () => {
       <div className='container mt-5 mx -auto'>
         <p className='fs-1 fw-bold'> PRODUCTS</p>
         <p className='ml-5 fs-3'>Payment on delivery</p>
+FDA approved
+        <p className='ml-5 fs-3'></p>
         <div className='row text-center mt-4 mb-5' id='home'>
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={one} className='w-100' />
             <p className=' fw-bold mt-2'>1 super active combo + 1 free natural detox cleanse </p>
             Payment on delivery
-FDA approved
 The price list 
 3 super active combo + 1 free natural detox cleanse
             <p className='fw-bold'>#25,000</p>
@@ -74,7 +75,7 @@ The price list
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm'>
             <img src={three} className='w-100' />
-            <p className=' fw-bold mt-2'>Sperm Booster</p>
+            <p className=' fw-bold mt-2'>3 super active combo + 1 free natural detox cleanse</p>
             <p className='fw-bold'>#45,000</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
