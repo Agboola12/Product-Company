@@ -67,8 +67,7 @@ The price list
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm  '>
             <img src={two} className='w-100' />
-2 super active combo + 1 free natural detox cleanse = #35,500
-            <p className=' fw-bold mt-2'></p>
+            <p className=' fw-bold mt-2'>2 super active combo + 1 free natural detox cleanse </p>
             <p className='fw-bold'>#35,500</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
