@@ -60,7 +60,7 @@ const Home = () => {
             Payment on delivery
 FDA approved
 The price list 
-3 super active combo + 1 free natural detox cleanse = #45,500
+3 super active combo + 1 free natural detox cleanse
             <p className='fw-bold'>#25,000</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
