@@ -55,16 +55,19 @@ const Home = () => {
         <p className='ml-5 fs-3'>Payment on delivery</p>
         <p className='ml-5 fs-5'>FDA approved</p>
         <div className='row text-center mt-4 mb-5' id='home'>
-          <div className='col-lg-3 d-flex  mx-auto shadow bg-white rounded-sm  '>
+          <div className='col-lg-3   mx-auto shadow bg-white rounded-sm  '>
+          <div className=' d-flex  '>
             <div className=''>
               <img src={one} className='w-100' />
               </div>
+            <p className=' mt-4 fs-3 fw-bold'>+</p>
             <div className=''>
               <img src={three} className='w-100' />
             </div>
             </div>
             <p className=' fw-bold mt-2'>1 super active combo + 1 free natural detox cleanse </p>
             <p className='fw-bold'>#25,000</p>
+            </div>
             {/* <div className=''>
             <img src={one} className='w-100' />
             <p className=' fw-bold mt-2'>1 super active combo + 1 free natural detox cleanse </p>
