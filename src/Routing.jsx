@@ -8,7 +8,6 @@ const Routing = () => {
         <>
             <Routes>
                     <Route path="/" element={<Home/>}/>
-                    <Route path="/details" element={<ProductDetails/>}/>
             </Routes>
     </>
   );
