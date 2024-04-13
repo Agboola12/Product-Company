@@ -60,7 +60,7 @@ const Home = () => {
               <div className=''>
                 <img src={one} className='w-100' />
               </div>
-              <p className=' mt-4 fs-3 fw-bold'>+</p>
+              <p className=' mt-5 fs-3 fw-bold'>+</p>
               <div className=''>
                 <img src={three} className='w-100' />
               </div>
@@ -68,11 +68,11 @@ const Home = () => {
             <p className=' fw-bold mt-2'>1 super active combo + 1 free natural detox cleanse </p>
             <p className='fw-bold'>#25,000</p>
             <hr/>
-            <p className=' fw-bold mt-3'>1 super active combo + 1 free natural detox cleanse </p>
-            <p className='fw-bold'>#25,000</p>
+            <p className=' fw-bold mt-3'>2 super active combo + 1 free natural detox cleanse = #35,500 </p>
+            <p className='fw-bold'>#35,500</p>
             <hr/>
-            <p className=' fw-bold mt-3'>1 super active combo + 1 free natural detox cleanse </p>
-            <p className='fw-bold'>#25,000</p>
+            <p className=' fw-bold mt-3'>3 super active combo + 1 free natural detox cleanse </p>
+            <p className='fw-bold'>#45,500</p>
           </div>
 
 
