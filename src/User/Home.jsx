@@ -73,13 +73,14 @@ const Home = () => {
             <hr/>
             <p className=' fw-bold mt-3'>3 super active combo + 1 free natural detox cleanse </p>
             <p className='fw-bold'>#45,500</p>
+            <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
 
 
 
           <div className='col-lg-3 mx-auto shadow bg-white rounded-sm'>
             <img src={two} className='w-100' />
-            <p className=' fw-bold mt-2'>2 super active combo + 1 free natural detox cleanse </p>
+            <p className=' fw-bold mt-2'>Sperm Booster </p>
             <p className='fw-bold'>#35,500</p>
             <Link to="https://wa.link/sea1s7" className='btn btn-main-1 w-100 text-medium text-white fw-bold fs-4 rounded-0 py-3 px-4 mb-4 rounded-lg' style={{ backgroundColor: '#621A3F' }}>Order Now</Link>
           </div>
